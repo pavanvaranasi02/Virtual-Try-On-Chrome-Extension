@@ -19,4 +19,7 @@ Complete this mentioned steps before running the application.py flask app:
 
 viton dataset is available at: "https://1drv.ms/u/s!Ai8t8GAHdzVUiQRFmTPrtrAy0ZP5?e=rS1aK8".
 
+And finally for chrome extesnsion, you need to change the file path of input and result image in response json
+
 if you have any issues other than mentioned, feel free to post it on issues section.
+
