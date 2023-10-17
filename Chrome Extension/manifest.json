@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Virtual Try On",
+  "version": "1.0",
+  "description": "A chrome extension that allows you to try on different clothes virtually using a flask backend.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "http://127.0.0.1:8000/upload",
+    "http://127.0.0.1:8000/upload1"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Virtual Try On</title>
+  <script src="content.js"></script>
+  <style>
+    /* Add CSS styles for the image */
+    #result-image img, #input-image img {
+      max-width: 192px; /* Set the desired width (192 pixels) */
+      max-height: 256px; /* Set the desired height (256 pixels) */
+      border: 1px solid #ccc;
+      margin-top: 10px;
+    }
+
+    /* Style the divs that contain the images */
+    #result-image, #input-image {
+      width: 192px; /* Set the desired width (192 pixels) */
+      height: 256px; /* Set the desired height (256 pixels) */
+      overflow: hidden; /* Ensure images fit within the div */
+      float: left; /* Place the divs side by side */
+      margin-right: 10px; /* Add some spacing between the divs */
+    }
+  </style>
+</head>
+<body>
+<h1> Upload Your images here </h1>
+  <form method="post" id="myForm">
+
+    <input type="file" name="personImage" accept="image/*"><br />
+    <input type="file" name="clothImage" accept="image/*"><br /><br />
+    <input type="submit" value="Upload" id="myButton">
+
+  </form>
+  
+  <h1 id="progressBar">This is a test, Upload the image</h1>
+
+  <div id="input-image"></div>
+  <div id="result-image"></div>
+  
+  
+</body>
+</html>
