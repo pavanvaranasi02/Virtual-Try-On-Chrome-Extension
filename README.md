@@ -23,3 +23,16 @@ And finally for chrome extesnsion, you need to change the file path of input and
 
 if you have any issues other than mentioned, feel free to post it on issues section.
 
+
+Here are some execution photos of the project:
+
+
+<img width="264" alt="Screenshot 2023-10-25 at 5 54 14 PM" src="https://github.com/nagasaipavan1/Virtual-Try-On-Chrome-Extension/assets/104422334/d11c198c-2871-4cc1-b4c4-ab027924516a">
+
+<img width="1108" alt="Screenshot 2023-10-25 at 5 42 11 PM" src="https://github.com/nagasaipavan1/Virtual-Try-On-Chrome-Extension/assets/104422334/aad5f89a-0427-4063-ab8f-d9f7726f8ec9">
+
+
+<img width="257" alt="Screenshot 2023-10-25 at 5 41 45 PM" src="https://github.com/nagasaipavan1/Virtual-Try-On-Chrome-Extension/assets/104422334/5cc7a5be-119b-41ae-ae07-bd43c0f76afe">
+
+
+
